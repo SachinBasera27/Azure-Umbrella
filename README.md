@@ -6,35 +6,35 @@ Both PowerShell and Python scripts included here are developed and tested with t
 
 **Purpose of This Repository:**
 
->> To provide a curated set of PowerShell and Python scripts for Azure administration and automation.
->> To support DevOps, cloud operations, and identity management scenarios across Azure and Microsoft Entra ID.
->> To serve as a technical reference for professionals learning or implementing automation using PowerShell modules and Python SDKs.
->> To maintain an evolving library of reusable, production-ready scripts that adapt as Azure services and APIs are updated.
+  To provide a curated set of PowerShell and Python scripts for Azure administration and automation.
+  To support DevOps, cloud operations, and identity management scenarios across Azure and Microsoft Entra ID.
+  To serve as a technical reference for professionals learning or implementing automation using PowerShell modules and Python SDKs.
+  To maintain an evolving library of reusable, production-ready scripts that adapt as Azure services and APIs are updated.
 
 
 **Scope and Usage**
 
 Scripts in this repository may include, but are not limited to:
 
->> Identity & Access Management:
-  >> Managing Microsoft Entra ID (Azure AD) users, groups, roles, and applications
-  >> Interacting with Microsoft Graph API for directory operations and governance
-  >> Automating tasks such as password resets, license assignments, or user lifecycle actions
+  Identity & Access Management:
+    Managing Microsoft Entra ID (Azure AD) users, groups, roles, and applications
+    Interacting with Microsoft Graph API for directory operations and governance
+    Automating tasks such as password resets, license assignments, or user lifecycle actions
   
->> Azure Resource Management:
-  >> Provisioning and configuring Azure services through ARM, Az PowerShell modules, or Azure SDK for Python
-  >> Automating policies, resource deployments, tagging, and compliance checks
+  Azure Resource Management:
+    Provisioning and configuring Azure services through ARM, Az PowerShell modules, or Azure SDK for Python
+    Automating policies, resource deployments, tagging, and compliance checks
 
->> Automation Support:
-  >> Scripts suitable for Azure Automation Runbooks, GitHub Actions, DevOps pipelines, or scheduled tasks
-  >> Reporting scripts for audit, governance, and environment monitoring
+  Automation Support:
+    Scripts suitable for Azure Automation Runbooks, GitHub Actions, DevOps pipelines, or scheduled tasks
+    Reporting scripts for audit, governance, and environment monitoring
   
->> Developer & DevOps Workflows:
-  >> Integrating scripts into CI/CD pipelines
-  >> Streamlining repetitive operational procedures
-  >> Enabling infrastructure automation based on best practices
+  Developer & DevOps Workflows:
+    Integrating scripts into CI/CD pipelines
+    Streamlining repetitive operational procedures
+    Enabling infrastructure automation based on best practices
   
->> Each script contains documentation or inline comments to help users understand logic, prerequisites, and customization steps.
+  Each script contains documentation or inline comments to help users understand logic, prerequisites, and customization steps.
 
 
 **Important Notes for Users**
