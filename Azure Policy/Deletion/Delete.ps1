@@ -70,7 +70,8 @@ Invoke-RestMethod `
     -Body $MailBody `
     -ContentType "application/json"
 
-#The above script has been tested in my Azure Tenant.
+
+#You might need to reach out to MS Azure Support if you get errors related to IP address.
 
 #Regarding Permissions read the below Docs:
 https://learn.microsoft.com/en-us/answers/questions/5556140/granting-an-azure-application-to-send-mail-as-any
