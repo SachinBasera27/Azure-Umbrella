@@ -1,13 +1,13 @@
 # Azure-Umbrella
 
-This repository serves as a centralized collection of PowerShell scripts and Python Scripts samples designed to interact with Microsoft Azure, primarily for tenant management, administrative automation, and DevOps workflows. It aims to provide practical, reliable, and adaptable examples that support engineers, administrators, and automation specialists working within Azure environments.
+This repository serves as a centralized collection of PowerShell scripts and Python Scripts/Program samples designed to interact with Microsoft Azure, primarily for tenant management, administrative automation, and DevOps workflows. It aims to provide practical, reliable, and adaptable examples that support engineers, administrators, and automation specialists working within Azure environments.
 
-Both PowerShell and Python scripts included here are developed and tested with the intention of working seamlessly with Azure services such as Microsoft Entra ID, Azure Resource Manager (ARM), Microsoft Graph API, and Azure Automation. While each script is functional, users may need to update parameters—such as tenant IDs, subscriptions, credentials, or environment-specific settings—to align with their own Azure environments.
+Both PowerShell and Python scripts/program included here are developed and tested with the intention of working seamlessly with Azure services such as Microsoft Entra ID, Azure Resource Manager (ARM), Microsoft Graph API, and Azure Automation. While each script is functional, users may need to update parameters—such as tenant IDs, subscriptions, credentials, or environment-specific settings—to align with their own Azure environments.
 
 
 **Purpose of This Repository:**
 
-  To provide a curated set of PowerShell and Python scripts for Azure administration and automation.
+  To provide a curated set of PowerShell and Python scripts/program for Azure administration and automation.
   To support DevOps, cloud operations, and identity management scenarios across Azure and Microsoft Entra ID.
   To serve as a technical reference for professionals learning or implementing automation using PowerShell modules and Python SDKs.
   To maintain an evolving library of reusable, production-ready scripts that adapt as Azure services and APIs are updated.
@@ -49,3 +49,6 @@ Scripts in this repository may include, but are not limited to:
 **Contributions and Updates**
 
 This repository will continue to expand as additional scripts and use cases are developed. Contributions, pull requests, and suggestions are welcome. The long-term goal is to maintain a practical, evolving toolkit for anyone working with Azure automation using PowerShell or Python.
+
+
+I try to add the official Microsoft documentation as well as other blogs, documentation for the viewer to go through to understand better. Try to check the code or the readme file under the folder for such information.
