@@ -71,21 +71,44 @@ def list_cap():
 
 
 def create_cap():
-    print("Create")
+    policy_data = input("Enter the CAP data in JSON format: ")
+    policy_data = json.loads(policy_data)
+    url=("https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies")
+    data = requests.post(url, headers=headers, json=policy_data)
+    status_code=data.status_code
+    print(f"CAP created successfully! {status_code}")
+
 
 def get_cap():
-    print("Get")
+    id = input("Enter the CAP id: ")
+    url=(f"https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/{id}")
+    print(f"Getting the policy with id: {id}")
+    response = requests.get(url, headers=headers)
+    data =  response.json()
+    print(json.dumps(data, indent=4))
 
 def update_cap():
-    print("Update")
-
+    id = input("Enter the CAP id: ")
+    url=(f"https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/{id}")
+    print(f"Updating the policy with id: {id}")
+    policy_data = input("Enter the updated CAP data in JSON format: ")
+    policy_data = json.loads(policy_data)
+    response = requests.patch(url, headers=headers, json=policy_data)
+    data =  response.json()
+    status_code=response.status_code
+    print(f"CAP updated successfully! {status_code}")
+    print(json.dumps(data, indent=4))
 
 def del_cap():
     id = input("Enter the CAP id: ")
     url= f"https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/{id}"
     print(f"Deleting the policy with id: {id}")
     response = requests.delete(url, headers=headers)
-    print(response)
+    status_code=response.status_code
+    print(f"CAP deleted successfully! {status_code}")
 
 
 CAP()
+
+
+##the create function and update function still don't work very well, need to troubleshoot them rest all are working.
